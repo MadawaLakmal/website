@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Web Page</title>
+    <style>
+        body {
+            background: #0a0a0a;
+            color: #0ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+        }
+        .glow-button {
+            background: transparent;
+            border: 2px solid #0ff;
+            color: #0ff;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 0 10px #0ff;
+        }
+        .glow-button:hover {
+            background: #0ff;
+            color: #000;
+            box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .links a {
+            color: #0ff;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 10px;
+            display: block;
+        }
+        .links a:hover {
+            text-shadow: 0 0 10px #0ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to <a href="https://madlak.com" target="_blank" style="color: #0ff; text-decoration: none;">madlak.com</a></h1>
+        <button class="glow-button" onclick="location.href='https://www.linkedin.com/in/madawa-lakmal'">Connect</button>
+    </div>
+</body>
+</html>
